@@ -1,0 +1,70 @@
+
+
+
+
+body {
+    font-family: cursive;
+    background-color:#B1C6BA;
+}
+
+.todo-list {
+    max-width: 500px;
+    margin: 50px ;
+    padding: 20px;
+    background-color: #FFCBCB;
+    border: 10px solid #FD8A8A;
+    border-radius: 10px;
+    box-shadow: grey;
+}
+
+#task-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 5px solid #DFEBEB; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#due-date-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 5px solid #DFEBEB; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#add-task-btn {
+    background-color: #87CEEB; /* Pastel blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Light gray */
+}
+
+.task.done {
+    text-decoration: line-through;
+    color: #666; /* Dark gray */
+}
+
+.fa-palette {
+    color: #FFC5C5; /* Pastel pink */
+}
+
+.fa-plus {
+    margin-right: 5px;
+}
+
